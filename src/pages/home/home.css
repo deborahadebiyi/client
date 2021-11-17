@@ -1,0 +1,36 @@
+.home{
+    width: 100vw;
+    height: 100 vh;
+    background-image: linear-gradient(#bedae7, #5d829b);
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.leftNavbar{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.homeWrapper{
+    width: 70%;
+    height: 70%;
+    display:flex;
+} 
+
+
+.homeLogo{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 10px;
+} 
+
+.homeDesc{
+    display: flex;
+    justify-content: left;
+    color: whitesmoke;
+    font-weight: 300;
+    margin-top: 100px;
+}
