@@ -1,5 +1,6 @@
 import React from 'react'
 import "./register.css"
+import Navbar from "../../components/Navbar"
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@900&display=swap');
 </style>
@@ -8,6 +9,7 @@ import "./register.css"
 export default function Register() {
     return (
         <div className="register">
+            <Navbar/>
             <div className="registerWrapper">
                 <h3 className="registerLogo"> REGISTER</h3>
                 <span className="registerDesc">Create an account</span>

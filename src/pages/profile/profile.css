@@ -1,0 +1,58 @@
+.profile{
+    width: 1000px;
+    height: 300px;
+    background-image: linear-gradient(#b0d9ec, #4abdac);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profileWrapper{
+    width: 70%;
+    height: 70%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profileUsername{
+    font-size: 50px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.rightNavbar{
+    position: flex;
+    justify-content: left;
+}
+
+.homeBtn{
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: #b0d9ec;
+    font-size: 50px;
+    margin-left: 20%;
+    margin-bottom: 150%;
+}
+
+.logoutBtn{
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: #b0d9ec;
+    font-weight: 500;
+    margin-left: 20%;
+    margin-bottom: 150%;
+}
+
+.retroBtn{
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: #f78733;
+    font-weight: 500;
+    margin-left: 20%;
+    margin-bottom: 150%;
+}
